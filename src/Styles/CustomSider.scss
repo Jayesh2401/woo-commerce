@@ -1,0 +1,383 @@
+.customSlider {
+  margin: 0%;
+  width: inherit;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+.slide {
+  border-radius: 5%;
+  text-align: center;
+  align-items: center;
+  padding: 3vw;
+  font-family: "Circular Std";
+  font-weight: 400;
+  color: #94a2b3;
+  line-height: 39px;
+  position: absolute;
+  background-color: #ffffff;
+  height: 32.5vh;
+  transition: all 1s ease-out;
+  .testimony {
+    color: black;
+  }
+}
+  .first {
+    background-image: url(../../public/testibox.svg);
+    background-repeat: no-repeat;
+    background-position: 13vw 3vh;
+    width: inherit;
+    opacity: 1;
+    border: 2px solid;
+    z-index: 3;
+    font-size: 1vw;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+  }
+  .second {
+    top: 2.7vh;
+    z-index: 2;
+    border: 2px solid;
+    width: calc(100% - 8%);
+    font-size: 0.1vw;
+    box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+    border-radius: 20px;
+  }
+  .third {
+    top: 5vh;
+    border: 2px solid;
+    z-index: 1;
+    font-size: 0.1vw;
+    width: calc(100% - 16%);
+    border-radius: 20px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .customSlider {
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 10vw 3vh;
+      width: inherit;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      font-size: 1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(100% - 8%);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(100% - 16%);
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .customSlider {
+    .slide {
+      border-radius: 5%;
+      text-align: center;
+      align-items: center;
+      padding: 4vw;
+      font-weight: 400;
+      color: #94a2b3;
+      line-height: 36px;
+      position: absolute;
+      background-color: #ffffff;
+      height: 26.5vh;
+      transition: all 0.5s ease-out;
+    }
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 10vw 3vh;
+      width: inherit;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      font-size: 1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(100% - 8%);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(100% - 16%);
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .customSlider {
+    .slide {
+      border-radius: 5%;
+      text-align: center;
+      align-items: center;
+      padding: 4vw;
+      font-weight: 400;
+      color: #94a2b3;
+      line-height: 30px;
+      position: absolute;
+      background-color: #ffffff;
+      height: 22.5vh;
+      transition: all 0.5s ease-out;
+    }
+
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 6vw 3vh;
+      width: inherit;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      font-size: 1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(100% - 8%);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(100% - 16%);
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .customSlider {
+    .slide {
+      text-align: center;
+      align-items: center;
+      padding: 4vw;
+      font-weight: 400;
+      color: #94a2b3;
+      line-height: 27px;
+      position: absolute;
+      background-color: #ffffff;
+      height: 20.5vh;
+      transition: all 0.5s ease-out;
+    }
+
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 6vw 3vh;
+      width: 40vw;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      font-size: 1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(100% - 4%);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(100% - 16%);
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .customSlider {
+    .slide {
+      text-align: center;
+      align-items: center;
+      padding: 4vw;
+      font-weight: 400;
+      color: #94a2b3;
+      line-height: 24px;
+      position: absolute;
+      background-color: #ffffff;
+      height: 20.5vh;
+      transition: all 0.5s ease-out;
+    }
+
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 15vw 3vh;
+      width: 60vw;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      background-size: 133px;
+      font-size: 10px;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(60vw - 10vw);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(60vw - 20vw);
+      border-radius: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .customSlider {
+    .slide {
+      text-align: center;
+      align-items: center;
+      padding: 6vw;
+      font-weight: 400;
+      color: #94a2b3;
+      line-height: 20px;
+      position: absolute;
+      background-color: #ffffff;
+      height: 20.5vh;
+      transition: all 0.5s ease-out;
+    }
+
+    .first {
+      background-image: url(../../public/testibox.svg);
+      background-repeat: no-repeat;
+      background-position: 14vw 4vh;
+      background-size: 133px;
+      width: 70vw;
+      opacity: 1;
+      border: 2px solid;
+      z-index: 3;
+      font-size: 10px;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .second {
+      top: 2.7vh;
+      z-index: 2;
+      border: 2px solid;
+      width: calc(70vw - 10vw);
+      font-size: 0.1vw;
+      box-shadow: 0px 18px 52.8537px rgba(215, 228, 249, 0.5);
+      border-radius: 20px;
+    }
+    .third {
+      top: 5vh;
+      border: 2px solid;
+      z-index: 1;
+      font-size: 0.1vw;
+      width: calc(70vw - 20vw);
+      border-radius: 20px;
+    }
+  }
+}
+
+// .change_1,
+// .change_3 {
+//     z-index: 1;
+//     opacity: 1;
+
+// }
+
+// .change_1 {
+
+//     left: 70% !important;
+// }
+
+// .change_3 {
+//     left: 30% !important;
+// }
+
+// .change_2 {
+//     left: 50% !important;
+//     z-index: 4;
+// }
+
+// .cap1 {
+//     left: 30%;
+// }
+
+// .cap2 {
+//     left: 50%;
+// }
+
+// .cap3 {
+//     left: 70%;
+// }
+
+// .change {
+//     position: absolute;
+//     transform: translate(-50%);
+//     transition: all 2s ease-in-out;
+//     width: 200px !important;
+//     height: 200px !important;
+//     background-color: transparent;
+//     max-height: 333px;
+//     top: 50%;
+// }
+
+// .div1 {
+//     width: 333px;
+//     display: flex;
+//     /* position: relative; */
+//     border-radius: 50%;
+//     justify-content: center;
+//     left: 40%;
+//     position: absolute;
+//     border: 3px solid #ffe501;
+//     background: transparent;
+//     height: 333px;
+//     align-items: center;
+// }

@@ -1,0 +1,1094 @@
+// .PurpleScren{
+//     width: 100vw;
+//     border: 2px solid black;
+//     margin: 0;
+//     padding: 0;
+//     .clipPathPurple{
+//             width: 99vw;
+//             height: 99vh;
+//             background: dodgerblue;
+//            clip-path: polygon(0% 17%,18% 22%,42% 24%,62% 24%,83% 20%,100% 15%,100% 85%,84% 83%,61% 80%,41% 80%,20% 82%,0% 85%);
+//     }
+// }
+
+.PurpleScren {
+  margin-top: 40px;
+  height: 100%;
+  // height: 100vh;
+  background-color: #7854f7;
+  .clipPathPurple {
+    height: 20px;
+    background-color: #fff;
+    border-radius: 0% 0% 50% 50%;
+  }
+  .clipBottomPurple {
+    height: 61px;
+    z-index: 1;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 50% 50% 0% 0%;
+  }
+  .FirstPhase {
+    margin-left: 200px;
+
+    .circleFirst {
+      position: relative;
+      transition: 1s;
+      top: 50px;
+    }
+    .circleFirst:hover{
+      top: 10px;
+      transition: 1s;
+    }
+    .bigCircle {
+      background-image: url("../../public/purpleFirstbig.png");
+      background-repeat: no-repeat;
+      width: 24vw;
+      display: block;
+      background-size: 23vw;
+      height: 50vh;
+      position: absolute;
+      left: 200px;
+    }
+    .dotimages {
+      background-image: url("../../public/purplevertical.png");
+      background-repeat: no-repeat;
+      width: 13vw;
+      background-size: 13vw;
+      height: 50vh;
+      margin-top: 260px;
+      position: absolute;
+      // animation: move1 5s infinite;
+      left: 250px;
+    }
+    .dotimages:hover{
+      animation: move1 5s  ease-in;
+    }
+
+    @keyframes move1 {
+      0% {
+        rotate: 0deg;
+      }
+      25% {
+        rotate: 90deg;
+
+      }
+       50% {
+        rotate: 200deg;
+
+      }
+      100% {
+        rotate: 360deg;
+
+      }
+    }
+    .adjustFirst {
+      display: flex;
+      margin-left: 50px;
+      .FirstPurpleimg {
+        max-width: 23.7vw;
+        position: relative;
+        bottom: 100px;
+        object-fit: contain;
+      }
+      .textAdjust {
+        h3 {
+          font-family: "Circular Std";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 46px;
+          color: #ffffff;
+        }
+        p {
+          width: 100%;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #ffffff;
+        }
+        .firstButtonP {
+          background: #70c217;
+          border-radius: 60px;
+          padding: 15px;
+          transition: 2s;
+          border: none;
+          color: #fff;
+        }
+        .firstButtonP:hover{
+          background-color: white;
+          color: black;
+          transition: 2s;
+        }
+      }
+      .imageBackground {
+        // background-image: url("../../public/woopurple.svg");
+        // background-repeat: no-repeat;
+        // width: 100%;
+        // position: relative;
+        // background-size: 27vw;
+        // height: 400px;
+        // bottom: 100px;
+        background-image: url("../../public/woopurple.svg");
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+        background-size: 27vw;
+        right: 0%;
+        height: 26vh;
+        bottom: 100px;
+      }
+    }
+  }
+
+  .secondPhase {
+    .secondManage {
+      display: flex;
+      width: 60%;
+      // margin: auto;
+      .secondText {
+        padding-left: 220px;
+        h3 {
+          font-family: "Circular Std";
+          font-style: normal;
+          font-weight: 700;
+          font-size: 36px;
+          line-height: 46px;
+          color: #ffffff;
+        }
+        p {
+          width: 100%;
+          font-family: "Roboto";
+          font-style: normal;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 30px;
+          color: #ffffff;
+        }
+        .seondButtonP {
+          background: #70c217;
+          border-radius: 60px;
+          transition: 2s;
+          padding: 20px;
+          border: none;
+          color: white;
+        }
+        .seondButtonP:hover{
+          color: black;
+          background-color: white;
+          transition: 2s;
+
+        }
+      }
+
+      .smallCircleUp {
+        background-image: url("../../public/purplesmall.png");
+        width: 100px;
+        background-repeat: no-repeat;
+        z-index: 3;
+        right: 33%;
+        margin-top: 0px;
+        transition: 1s;
+        height: 100px;
+        position: absolute;
+        background-size: 70px;
+      }
+
+      .smallCircleUp:hover{
+        margin-top: -50px;
+        transition: 1s;
+      }
+
+      .BigCircleUp {
+        background-image: url("../../public/purpleSecondcircle.png");
+        background-repeat: no-repeat;
+        background-size: 13vw;
+        height: 28vh;
+        width: 16vw;
+        object-fit: contain;
+        right: 10%;
+        position: absolute;
+      }
+
+      .seconddotUp {
+        background-image: url("../../public/purpleseconddot.svg");
+        background-repeat: no-repeat;
+        width: 12vw;
+        position: absolute;
+        margin-top: 26vh;
+        left: 79vw;
+        height: 22vh;
+        background-size: 22vw;
+      }
+      .secondImg {
+        img {
+          max-width: 23vw;
+              border-radius: 11px;
+              box-shadow: 0px 5px 10px grey;
+    // box-shadow: -1px 1px 11px #7a707c;
+          object-fit: contain;
+          position: relative;
+          top: 40px;
+          margin-right: -30px;
+
+          z-index: 2;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1640px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 160px;
+      .circleFirst {
+        position: relative;
+        top: 50px;
+      }
+      .bigCircle {
+        width: 24vw;
+        background-size: 23vw;
+        left: 178px;
+      }
+      .dotimages {
+        width: 13vw;
+        background-size: 13vw;
+        height: 50vh;
+        margin-top: 200px;
+        left: 240px;
+      }
+      .adjustFirst {
+        .textAdjust {
+          h3 {
+            font-size: 32px;
+            line-height: 42px;
+          }
+          p {
+            font-size: 16px;
+            width: 85%;
+            line-height: 28px;
+          }
+          .firstButtonP {
+            border-radius: 60px;
+            padding: 15px;
+          }
+        }
+        .imageBackground {
+          background-size: 27vw;
+          height: 26vh;
+          bottom: 100px;
+        }
+      }
+    }
+    .secondPhase {
+      .secondManage {
+        width: 65%;
+        .secondText {
+          padding-left: 220px;
+          h3 {
+            font-size: 32px;
+            line-height: 42px;
+          }
+          p {
+            font-size: 16px;
+            width: 85%;
+            line-height: 28px;
+          }
+          .seondButtonP {
+            border-radius: 60px;
+            padding: 15px;
+          }
+        }
+        .smallCircleUp {
+          width: 70px;
+          right: 30%;
+        }
+        .BigCircleUp {
+          right: 7%;
+        }
+        .seconddotUp {
+          width: 12vw;
+          position: absolute;
+          margin-top: 20vh;
+          left: 82vw;
+          height: 22vh;
+          background-size: 22vw;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 120px;
+      .circleFirst {
+        top: 30px;
+      }
+      .bigCircle {
+        width: 24vw;
+        height: 45vh;
+        background-size: 25vw;
+        left: 130px;
+      }
+      .dotimages {
+        margin-top: 160px;
+        left: 180px;
+      }
+      .adjustFirst {
+        .textAdjust {
+          h3 {
+            font-size: 30px;
+            line-height: 38px;
+          }
+          p {
+            font-size: 14px;
+            width: 85%;
+            line-height: 26px;
+          }
+          .firstButtonP {
+            padding: 12px;
+          }
+        }
+        .imageBackground {
+          background-size: 27vw;
+          height: 26vh;
+          bottom: 100px;
+        }
+      }
+    }
+    .secondPhase {
+      .secondManage {
+        width: 65%;
+        .secondText {
+          padding-left: 180px;
+          h3 {
+            font-size: 30px;
+            line-height: 38px;
+          }
+          p {
+            font-size: 14px;
+            width: 91%;
+            line-height: 26px;
+          }
+          .seondButtonP {
+            padding: 12px;
+          }
+        }
+        .smallCircleUp {
+          width: 70px;
+          right: 30%;
+        }
+        .BigCircleUp {
+          right: 7%;
+        }
+        .seconddotUp {
+          width: 12vw;
+          position: absolute;
+          margin-top: 16vh;
+          left: 82vw;
+          height: 22vh;
+          background-size: 22vw;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 80px;
+      .circleFirst {
+        top: 20px;
+      }
+      .bigCircle {
+        height: 38vh;
+        background-size: 23vw;
+        left: 95px;
+      }
+      .dotimages {
+        margin-top: 130px;
+        left: 140px;
+      }
+      .adjustFirst {
+        .textAdjust {
+          h3 {
+            font-size: 26px;
+            line-height: 34px;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+            line-height: 26px;
+          }
+          .firstButtonP {
+            padding: 10px;
+          }
+        }
+        // .imageBackground {
+        //   background-size: 27vw;
+        //   height: 26vh;
+        //   bottom: 100px;
+        // }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 70%;
+        .secondText {
+          padding-left: 170px;
+          h3 {
+            font-size: 26px;
+            line-height: 34px;
+          }
+          p {
+            font-size: 14px;
+            width: 100%;
+            line-height: 26px;
+          }
+          .seondButtonP {
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          width: 60px;
+          right: 25%;
+          margin-top: 10px;
+
+          background-size: 50px;
+        }
+        .BigCircleUp {
+          right: 3%;
+        }
+        .seconddotUp {
+          left: 86vw;
+          margin-top: 12vh;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 50px;
+      .circleFirst {
+        top: 20px;
+      }
+      .bigCircle {
+        height: 30vh;
+        background-size: 23vw;
+        left: 70px;
+      }
+      .dotimages {
+        margin-top: 100px;
+        left: 100px;
+        height: 27vh;
+      }
+      .adjustFirst {
+        .textAdjust {
+          h3 {
+          }
+          p {
+            width: 85%;
+          }
+          .firstButtonP {
+            font-size: 12px;
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 80%;
+        .secondText {
+          padding-bottom: 15px;
+          padding-left: 80px;
+
+          h3 {
+            font-size: 26px;
+            line-height: 34px;
+          }
+          p {
+            font-size: 14px;
+            width: 90%;
+            line-height: 26px;
+          }
+          .seondButtonP {
+            font-size: 14px;
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          width: 42px;
+          right: 23%;
+          margin-top: 20px;
+          background-size: 40px;
+        }
+        .BigCircleUp {
+          right: 0%;
+          margin-top: 15px;
+        }
+        .seconddotUp {
+          display: none;
+        }
+        .secondImg {
+          img {
+            max-width: 23vw;
+            object-fit: contain;
+            position: relative;
+            margin-right: 0px;
+
+            z-index: 2;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 905px) {
+  .PurpleScren {
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 80%;
+        .secondText {
+          padding-bottom: 15px;
+          padding-left: 80px;
+
+          h3 {
+            font-size: 26px;
+            line-height: 34px;
+          }
+          p {
+            font-size: 14px;
+            width: 90%;
+            line-height: 26px;
+          }
+          .seondButtonP {
+            font-size: 14px;
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          right: 24%;
+          margin-top: 60px;
+        }
+        .BigCircleUp {
+          margin-top: 50px;
+        }
+        .seconddotUp {
+          display: none;
+        }
+        .secondImg {
+          img {
+            margin-top: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .PurpleScren {
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 90%;
+        .secondText {
+          padding-bottom: 15px;
+          padding-left: 80px;
+
+          h3 {
+            font-size: 26px;
+            line-height: 34px;
+          }
+          p {
+            font-size: 14px;
+            width: 85%;
+            line-height: 26px;
+          }
+          .seondButtonP {
+            padding: 10px;
+            font-size: 12px;
+
+          }
+        }
+        .smallCircleUp {
+          right: 20%;
+          margin-top: 80px;
+        }
+        .BigCircleUp {
+          margin-top: 80px;
+        }
+        .seconddotUp {
+          display: none;
+        }
+        .secondImg {
+          img {
+            margin-top: 60px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 30px;
+      .circleFirst {
+        display: none;
+      }
+      .bigCircle {
+        height: 26vh;
+        margin-top: 70px;
+        background-size: 22vw;
+        left: 30px;
+      }
+      .dotimages {
+        margin-top: 121px;
+        left: 62px;
+        height: 20vh;
+      }
+      .adjustFirst {
+        .FirstPurpleimg {
+          max-width: 230px;
+          bottom: 60px;
+          right: 35px;
+        }
+        .textAdjust {
+          h3 {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          p {
+            width: 85%;
+            font-size: 12px;
+            line-height: 22px;
+          }
+          .firstButtonP {
+            font-size: 12px;
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 90%;
+        .secondText {
+          padding-bottom: 15px;
+          padding-left: 60px;
+          h3 {
+            font-size: 24px;
+            line-height: 30px;
+          }
+          p {
+            width: 85%;
+            font-size: 12px;
+            line-height: 22px;
+          }
+          .seondButtonP {
+            padding: 10px;
+            font-size: 12px;
+
+          }
+        }
+        .smallCircleUp {
+          right: 30%;
+          margin-top: 80px;
+        }
+        .BigCircleUp {
+          margin-top: 80px;
+        }
+        .seconddotUp {
+          display: none;
+        }
+        .secondImg {
+          img {
+            margin-top: 60px;
+            max-width: 220px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 656px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 30px;
+      .circleFirst {
+        display: none;
+      }
+      .bigCircle {
+        height: 25vh;
+        margin-top: 100px;
+      }
+      .dotimages {
+        display: none;
+      }
+      .adjustFirst {
+        .FirstPurpleimg {
+          max-width: 210px;
+          bottom: 60px;
+          right: 50px;
+        }
+        .textAdjust {
+          h3 {
+            font-size: 22px;
+            line-height: 26px;
+          }
+          p {
+            width: 95%;
+            font-size: 10px;
+            line-height: 20px;
+          }
+          .firstButtonP {
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        width: 90%;
+        .secondText {
+          padding-bottom: 15px;
+          padding-left: 60px;
+          h3 {
+            font-size: 22px;
+            line-height: 26px;
+          }
+          p {
+            width: 95%;
+            font-size: 10px;
+            line-height: 20px;
+          }
+          .seondButtonP {
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          right: 30%;
+          margin-top: 80px;
+        }
+        .BigCircleUp {
+          margin-top: 80px;
+        }
+        .seconddotUp {
+          display: none;
+        }
+        .secondImg {
+          img {
+            margin-top: 60px;
+            max-width: 210px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 30px;
+      .circleFirst {
+        display: none;
+      }
+      .bigCircle {
+        height: 25vh;
+        margin-top: 80px;
+      }
+      .dotimages {
+        display: block;
+        margin-top: 32px;
+        left: 51%;
+        height: 20vh;
+        transform: rotate(90deg);
+      }
+      .adjustFirst {
+        flex-wrap: wrap;
+        .FirstPurpleimg {
+          max-width: 210px;
+          bottom: 50px;
+          right: 50px;
+        }
+        .textAdjust {
+          margin-top: -50px;
+          margin-left: 60px;
+          h3 {
+            font-size: 20px;
+            line-height: 24px;
+          }
+          p {
+            width: 90%;
+            font-size: 12px;
+            line-height: 20px;
+          }
+          .firstButtonP {
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 90%;
+        .secondText {
+          padding-top: 20px;
+          h3 {
+            font-size: 22px;
+            line-height: 26px;
+          }
+          p {
+            width: 80%;
+            font-size: 12px;
+            line-height: 20px;
+          }
+          .seondButtonP {
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          display: none;
+        }
+        .BigCircleUp {
+          display: none;
+        }
+        .seconddotUp {
+          display: block;
+          left: 10vh;
+          margin-top: 45vh;
+          width: 35vw;
+          background-size: 35vw;
+        }
+        .secondImg {
+          img {
+            margin-top: -15px;
+            max-width: 210px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 20px;
+      .circleFirst {
+        display: none;
+      }
+      .bigCircle {
+        display: none;
+      }
+      .dotimages {
+        display: block;
+        margin-top: 32px;
+        left: 51%;
+        width: 20vw;
+        background-size: 17vw;
+
+        height: 20vh;
+        transform: rotate(90deg);
+      }
+      .adjustFirst {
+        flex-wrap: wrap;
+        .FirstPurpleimg {
+          max-width: 210px;
+          bottom: 40px;
+          right: 70px;
+        }
+        .textAdjust {
+          margin-top: -50px;
+          margin-left: 0px;
+          h3 {
+            font-size: 20px;
+            line-height: 20px;
+          }
+          p {
+            width: 90%;
+            font-size: 11px;
+            line-height: 20px;
+          }
+          .firstButtonP {
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 90%;
+        .secondText {
+          padding-left: 30px;
+          h3 {
+            font-size: 22px;
+            line-height: 20px;
+          }
+          p {
+            width: 80%;
+            font-size: 11px;
+            line-height: 20px;
+          }
+          .seondButtonP {
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          display: none;
+        }
+        .BigCircleUp {
+          display: none;
+        }
+        .seconddotUp {
+          display: block;
+          left: 10vh;
+          margin-top: 45vh;
+          width: 35vw;
+          background-size: 35vw;
+        }
+        .secondImg {
+          img {
+            margin-top: -15px;
+            max-width: 210px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .PurpleScren {
+    .FirstPhase {
+      margin-left: 20px;
+      .circleFirst {
+        display: none;
+      }
+      .bigCircle {
+        display: none;
+      }
+      .dotimages {
+        display: block;
+        margin-top: 32px;
+        left: 51%;
+        width: 20vw;
+        background-size: 17vw;
+
+        height: 20vh;
+        transform: rotate(90deg);
+      }
+      .adjustFirst {
+        flex-wrap: wrap;
+        .FirstPurpleimg {
+          max-width: 210px;
+          bottom: 40px;
+          right: 75px;
+
+        }
+        .textAdjust {
+          margin-top: -50px;
+          margin-left: -45px;
+          h3 {
+            font-size: 20px;
+            line-height: 20px;
+          }
+          p {
+            width: 90%;
+            font-size: 11px;
+            line-height: 20px;
+          }
+          .firstButtonP {
+            padding: 10px;
+          }
+        }
+        .imageBackground {
+          display: none;
+        }
+      }
+    }
+    .secondPhase {
+      padding-top: 20px;
+      .secondManage {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        width: 90%;
+        .secondText {
+          padding-left: 20px;
+          h3 {
+            font-size: 22px;
+            line-height: 20px;
+          }
+          p {
+            width: 80%;
+            font-size: 11px;
+            line-height: 20px;
+          }
+          .seondButtonP {
+            padding: 10px;
+          }
+        }
+        .smallCircleUp {
+          display: none;
+        }
+        .BigCircleUp {
+          display: none;
+        }
+        .seconddotUp {
+          display: block;
+          left: 3vh;
+          margin-top: 45vh;
+          width: 35vw;
+          background-size: 35vw;
+        }
+        .secondImg {
+          img {
+            margin-top: -25px;
+            max-width: 200px;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1054 @@
+
+
+.CursorClass{
+  cursor: pointer;
+}  
+.support {
+  height: max-content;
+  width: 100%;
+  padding: 0%;
+
+  .peopleSection {
+    margin-inline: 50px;
+    text-align: center;
+    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .heading {
+      max-width: fit-content;
+      line-height: 70px;
+      font-size: 55px;
+      font-family: "Circular Std";
+      font-weight: 700;
+    }
+    .smallHeading {
+      color: #94a2b3;
+      max-width: 38.7vw;
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 25px;
+      margin-top: 2.2vh;
+    }
+    .supportProfile {
+      width: 88vw;
+      img {
+        width: 78%;
+      }
+      background-image: url("../../public/supportbackground.png"),
+        url("../../public/supportsecond.svg"),
+        url("../../public/supportsecond.svg"),
+        url("../../public/supportgreen.png"),
+        url("../../public/supportsecond.svg"),
+        url("../../public/testiorange.svg");
+      background-repeat: no-repeat;
+      background-size: calc(100% - 3%), 3vw, 1.7vw, 13vw, 1.7vw, 24vw;
+      background-position: 0vw 5.8vw, 1vw 3.8vw, 5.5vw 9.3vw, 0vw 12.8vw,
+        78.8vw 2vw, 75.8vw 7.7vw;
+    }
+  }
+
+  .footerSection {
+    color: #ffffff;
+    .bolder {
+      font-weight: 600;
+    }
+    .section {
+      width: 100%;
+      height: 22vh;
+      background: #5f37ef;
+      display: flex;
+      justify-content: center;
+      font-family: "Roboto";
+      font-style: normal;
+      align-items: center;
+      .text {
+        margin-left: 6vw;
+        width: 49%;
+        font-size: 2.1vw;
+      }
+      .getStarted {
+        padding: 1vw 2vw;
+        font-size: 0.8vw;
+        position: relative;
+        left: 70px;
+        font-family: "Roboto";
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        background: none;
+        transition: 1s;
+        color: inherit;
+        border: white solid 0.1vh;
+      }
+      .getStarted:hover{
+        background-color: #70c217;
+        border: #70c217 solid 0.1vh;
+        transition: 1s;
+      }
+    }
+    .circleDesg {
+      position: relative;
+      width: 3.3vw;
+      top: 9.6vh;
+      right: -8vw;
+    }
+    .footer {
+      width: 100%;
+      height: 85vh;
+      background-color: #7854f7;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .benifits {
+        width: 50%;
+        margin-right: 1vw;
+        margin-top: 5vh;
+        display: flex;
+        list-style: none;
+        img {
+          animation: none;
+          margin-top: -0.6vh;
+
+        }
+        img:hover{
+          animation: move2 3s infinite;
+        }
+        .benifit {
+          margin-right: 3vw;
+          margin-left: 1vw;
+        }
+        @keyframes move2 {
+          0% {
+            rotate: 0deg;
+          }
+          25% {
+            rotate: 90deg;
+    
+          }
+           50% {
+            rotate: 200deg;
+    
+          }
+          100% {
+            rotate: 360deg;
+    
+          }
+        }
+      }
+   
+      .logo {
+        margin-top: 13vh;
+        width: max-content;
+      }
+      .partition {
+        margin: 5vh 0vw;
+        border: 1px solid #9a7dff;
+        height: 0vh;
+        width: 80vw;
+      }
+      .featureLists {
+        display: flex;
+        width: 80vw;
+        justify-content: space-evenly;
+        .featureList {
+          list-style: none;
+          width: 12vw;
+          .listHeading {
+            margin-bottom: 1vh;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+    .footerEnd {
+      padding-top: 3vh;
+      background-color: #f5f5f5;
+      width: 100%;
+      height: 7vh;
+      display: flex;
+      justify-content: space-evenly;
+      .socialMedia {
+        display: flex;
+        justify-content: space-between;
+        width: 11vw;
+        img {
+          height: 20px;
+        }
+        img:hover{
+          animation: move3 1s infinite;
+        }
+
+        @keyframes move3 {
+          0% {
+           margin-top: 10px;
+          }
+          25% {
+            margin-bottom: 0px;
+    
+          }
+           50% {
+            margin-top: 10px;
+    
+          }
+          100% {
+            margin-bottom: 5px;
+    
+          }
+        }
+      }
+      .copyright {
+        a{
+          text-decoration: none;
+          text-align: center;
+        width: 40vw;
+        color: black;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        }
+        .term {
+          text-decoration: underline;
+        }
+      }
+      .footerLogo {
+        width: 13vw;
+        img {
+          margin-top: -0.9vh;
+          max-width:180px ;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 65px;
+        font-size: 50px;
+      }
+      .smallHeading {
+        max-width: 50.7vw;
+        font-size: 17px;
+        line-height: 24px;
+      }
+    }
+    .footerSection {
+      .footer {
+        .partition {
+          margin: 4vh 0vw;
+          border: 1px solid #9a7dff;
+          height: 0vh;
+          width: 80vw;
+        }
+        .featureLists {
+          display: flex;
+          width: 80vw;
+          justify-content: space-evenly;
+          .featureList {
+            list-style: none;
+            width: 12vw;
+            .listHeading {
+              margin-bottom: 1vh;
+              font-family: "Roboto";
+              font-size: 14px;
+              font-weight: 700;
+              line-height: 25px;
+              text-transform: uppercase;
+            }
+            .feature {
+              font-family: "Roboto";
+              font-weight: 400;
+              font-size: 12px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+      .footerEnd {
+        padding-top: 2vh;
+        width: 100%;
+        height: 7vh;
+        .socialMedia {
+          display: flex;
+          justify-content: space-between;
+          width: 11vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+
+            text-align: center;
+            width: 40vw;
+            color: black;
+            font-size: 11px;
+            line-height: 18px;
+          }
+        }
+        .footerLogo {
+          width: 13vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 60px;
+        font-size: 45px;
+      }
+      .smallHeading {
+        max-width: 50.7vw;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+    .footerSection {
+      .section {
+        height: 20vh;
+        .getStarted {
+          font-size: 16px;
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 10vh;
+        right: -8vw;
+      }
+      .footer {
+        height: 69vh;
+        .benifits {
+          width: 80%;
+          img {
+            margin-top: -0.6vh;
+          }
+          .benifit {
+            margin-left: 2vw;
+          }
+        }
+        .logo {
+          margin-top: 10vh;
+        }
+        .partition {
+          margin: 3vh 0vw;
+          border: 1px solid #9a7dff;
+          height: 0vh;
+          width: 80vw;
+        }
+        .featureLists {
+          display: flex;
+          width: 80vw;
+          justify-content: space-between;
+          .featureList {
+            list-style: none;
+            width: 12vw;
+            .listHeading {
+              margin-bottom: 0.5vh;
+              font-size: 10px;
+              line-height: 20px;
+            }
+            .feature {
+              font-size: 11px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+      .footerEnd {
+        .socialMedia {
+          img {
+            height: 16px;
+          }
+        }
+        .copyright {
+          a{
+            font-size: 10px;
+            line-height: 18px;
+
+          }
+        }
+        .footerLogo {
+          img {
+            margin-top: -0.9vh;
+            max-width:150px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 55px;
+        font-size: 40px;
+      }
+      .smallHeading {
+        max-width: 55.7vw;
+        font-size: 15px;
+        line-height: 20px;
+      }
+    }
+
+    .footerSection {
+      .section {
+        height: 18vh;
+        .getStarted {
+          font-size: 14px;
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 8vh;
+        right: -8vw;
+      }
+      .footer {
+        height: 70vh;
+        .benifits {
+          width: 90%;
+          img {
+            margin-top: -0.6vh;
+          }
+          .benifit {
+            margin-left: 3vw;
+          }
+        }
+        .logo {
+          margin-top: 8vh;
+        }
+        .partition {
+          margin: 3vh 0vw;
+          border: 1px solid #9a7dff;
+          height: 0vh;
+          width: 80vw;
+        }
+
+        .featureLists {
+          display: flex;
+          width: 80vw;
+          justify-content: space-between;
+          .featureList {
+            list-style: none;
+            width: 12vw;
+
+            .listHeading {
+              margin-bottom: 0.5vh;
+              font-size: 10px;
+              line-height: 20px;
+            }
+            .feature {
+              font-size: 11px;
+              line-height: 18px;
+            }
+          }
+        }
+        .adjustSize {
+          width: 19% !important;
+        }
+      }
+      .footerEnd {
+        padding-top: 2vh;
+        width: 100%;
+        height: 7vh;
+        .socialMedia {
+          display: flex;
+          justify-content: space-between;
+          width: 11vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+
+            width: 45vw;
+            font-size: 10px;
+            line-height: 16px;
+          }
+        }
+        .footerLogo {
+          width: 20vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 50px;
+        font-size: 35px;
+      }
+      .smallHeading {
+        max-width: 70.7vw;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    .footerSection {
+      .section {
+        height: 11vh;
+        .text {
+          font-size: 13px;
+          margin-left: 2vw;
+          width: 53%;
+        }
+        .getStarted {
+          font-size: 13px;
+          left: 60px;
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 8vh;
+        right: -8vw;
+      }
+      .footer {
+        height: 50vh;
+        .benifits {
+          width: 87%;
+          margin-left: 13%;
+          img {
+            margin-top: -0.6vh;
+            height: 30px;
+          }
+          .benifit {
+            margin-left: 3vw;
+            position: relative;
+            font-size: 12px;
+            top: 40px;
+            right: 75px;
+          }
+        }
+        .logo {
+          margin-top: 10vh;
+        }
+        .partition {
+          margin: 4vh 0vw;
+        }
+        .partition {
+          margin: 3vh 0vw;
+          border: 1px solid #9a7dff;
+          height: 0vh;
+          width: 80vw;
+        }
+        .featureLists {
+          display: flex;
+          width: 80vw;
+          justify-content: space-between;
+          .featureList {
+            list-style: none;
+            width: 12vw;
+            display: none;
+            .listHeading {
+              margin-bottom: 0.5vh;
+              font-size: 10px;
+              line-height: 20px;
+            }
+            .feature {
+              font-size: 11px;
+              line-height: 18px;
+            }
+          }
+        }
+        .dropDownClass {
+          display: flex;
+          width: 80%;
+          justify-content: space-around;
+          select {
+            font-family: "Roboto";
+            font-weight: 400;
+            background-color: #7854f7;
+            color: white;
+            border: none;
+            font-size: 12px;
+          }
+          // .mainArrow{
+          //   width: 20%;
+          // }
+          // .anotherarrow{
+          //   width: 17%;
+          // }
+          .insideSelect {
+            font-size: 12px;
+            border: none;
+            background-color: #7854f7;
+            border-radius: 5px;
+            color: rgb(247, 243, 243);
+          }
+        }
+        .adjystSecond {
+          padding-top: 30px;
+        }
+        .widthClass {
+          width: 60%;
+        }
+        
+      }
+      .footerEnd {
+        padding-top: 1.5vh;
+        width: 100%;
+        height: 7vh;
+        .socialMedia {
+          display: flex;
+          gap: 10px;
+          justify-content: space-between;
+          width: 15vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+            width: 30vw;
+            font-size: 9px;
+            display: flex;
+            flex-direction: column;
+            line-height: 16px;
+          }
+        }
+        .footerLogo {
+          width: 20vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 35px;
+        font-size: 28px;
+      }
+      .smallHeading {
+        max-width: 60.7vw;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+    .footerSection {
+      .section {
+        height: 12vh;
+        .text {
+          font-size: 12px;
+          margin-left: 0vw;
+          width: 60%;
+        }
+        .getStarted {
+          font-size: 13px;
+          left: 30px;
+          padding: 0.3vw 2vw;
+
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 6vh;
+        right: 0vw;
+      }
+      .footer {
+        height: 47vh;
+        .benifits {
+          width: 85%;
+          gap: 25%;
+          margin-left: 10%;
+          img {
+            margin-top: -0.6vh;
+          }
+          .benifit {
+            display: none;
+            margin-left: 3vw;
+            position: relative;
+            font-size: 11px;
+            top: 60px;
+            right: 85px;
+          }
+        }
+        .benefitshidd {
+          list-style: none;
+          width: 90%;
+          font-size: 12px;
+          gap: 10px;
+          .benifitlist {
+            width: 30%;
+          }
+        }
+        .logo {
+          margin-top: 6vh;
+        }
+        .partition {
+          margin: 4vh 0vw;
+        }
+        .dropDownClass {
+          display: flex;
+          width: 90%;
+          justify-content: space-between;
+          select {
+            font-family: "Roboto";
+            font-weight: 400;
+            background-color: #7854f7;
+            color: white;
+            border: none;
+            font-size: 12px;
+          }
+          // .mainArrow{
+          //   width: 20%;
+          // }
+          // .anotherarrow{
+          //   width: 17%;
+          // }
+          .insideSelect {
+            font-size: 12px;
+            border: none;
+            background-color: #7854f7;
+            border-radius: 5px;
+            color: rgb(247, 243, 243);
+          }
+        }
+        .adjystSecond {
+          padding-top: 25px;
+          justify-content: space-around;
+        }
+      }
+      .footerEnd {
+        padding-top: 1.5vh;
+        width: 100%;
+        height: 15vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .socialMedia {
+          display: flex;
+          gap: 10px;
+          justify-content: space-between;
+          width: 35vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+
+            width: 40vw;
+            font-size: 9px;
+            display: flex;
+            flex-direction: column;
+            line-height: 16px;
+          }
+        }
+        .footerLogo {
+          width: 35vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 26px;
+        font-size: 22px;
+      }
+      .smallHeading {
+        max-width: 60.7vw;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+    .footerSection {
+      .section {
+        height: 14vh;
+        .text {
+          font-size: 12px;
+          margin-left: 0vw;
+          width: 60%;
+        }
+        .getStarted {
+          font-size: 8px;
+          left: 20px;
+          padding: 0vw 2vw;
+
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 7vh;
+        right: 0vw;
+      }
+      .footer {
+        height: 45vh;
+        .benifits {
+          width: 95%;
+          gap: 30%;
+          margin-left: 0%;
+          img {
+            margin-top: -0.6vh;
+          }
+          .benifit {
+            display: none;
+            margin-left: 3vw;
+            position: relative;
+            font-size: 13px;
+            top: 60px;
+            right: 85px;
+          }
+        }
+        .benefitshidd {
+          list-style: none;
+          width: 100%;
+          gap: 10px;
+          font-size: 10px;
+          .benifitlist {
+            width: 30%;
+          }
+        }
+        .logo {
+          margin-top: 5vh;
+        }
+        .partition {
+          margin: 3vh 0vw;
+        }
+        .dropDownClass {
+          display: flex;
+          width: 90%;
+          justify-content: space-between;
+          select {
+            font-family: "Roboto";
+            font-weight: 400;
+            background-color: #7854f7;
+            color: white;
+            border: none;
+            font-size: 12px;
+          }
+          // .mainArrow{
+          //   width: 20%;
+          // }
+          // .anotherarrow{
+          //   width: 17%;
+          // }
+          .insideSelect {
+            font-size: 12px;
+            border: none;
+            background-color: #7854f7;
+            border-radius: 5px;
+            color: rgb(247, 243, 243);
+          }
+        }
+        .adjystSecond {
+          padding-top: 25px;
+          justify-content: space-evenly;
+        }
+      }
+      .footerEnd {
+        padding-top: 1.5vh;
+        width: 100%;
+        height: 15vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .socialMedia {
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+          width: 40vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+            width: 45vw;
+            font-size: 9px;
+            display: flex;
+            flex-direction: column;
+            line-height: 16px;
+          }
+        }
+        .footerLogo {
+          width: 35vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      } 
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .support {
+    .peopleSection {
+      .heading {
+        line-height: 22px;
+        font-size: 18px;
+      }
+      .smallHeading {
+        max-width: 60.7vw;
+        font-size: 13px;
+        line-height: 16px;
+      }
+    }
+    .footerSection {
+      .section {
+        height: 10vh;
+        .text {
+          font-size: 10px;
+          margin-left: 0vw;
+          width: 63%;
+        }
+        .getStarted {
+          font-size: 9px;
+          left: 10px;
+        }
+      }
+      .circleDesg {
+        position: relative;
+        width: 3.3vw;
+        top: 6vh;
+        right: 0vw;
+      }
+      .footer {
+        height: 38vh;
+        .benifits {
+          width: 90%;
+          gap: 25%;
+          margin-top: 3vh;
+          margin-left: 0%;
+          img {
+            margin-top: -0.6vh;
+          }
+          .benifit {
+            display: none;
+            margin-left: 3vw;
+            position: relative;
+            font-size: 13px;
+            top: 60px;
+            right: 85px;
+          }
+        }
+        .benefitshidd {
+          list-style: none;
+          width: 98%;
+          gap: 10px;
+          font-size: 10px;
+          margin-right: 20px;
+          .benifitlist {
+            width: 30%;
+          }
+        }
+        .logo {
+          margin-top: 2vh;
+        }
+        .partition {
+          margin: 2vh 0vw;
+        }
+        .dropDownClass {
+          display: flex;
+          width: 100%;
+          justify-content: space-around;
+          select {
+            font-family: "Roboto";
+            font-weight: 400;
+            background-color: #7854f7;
+            color: white;
+            border: none;
+            font-size: 10px;
+          }
+          // .mainArrow{
+          //   width: 20%;
+          // }
+          // .anotherarrow{
+          //   width: 17%;
+          // }
+          .insideSelect {
+            font-size: 12px;
+            border: none;
+            background-color: #7854f7;
+            border-radius: 5px;
+            color: rgb(247, 243, 243);
+          }
+        }
+        .adjystSecond {
+          padding-top: 25px;
+          justify-content: space-evenly;
+        }
+      }
+      .footerEnd {
+        padding-top: 1.5vh;
+        width: 100%;
+        height: 15vh;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        .socialMedia {
+          display: flex;
+          gap: 20px;
+          justify-content: space-between;
+          width: 40vw;
+          img {
+            height: 18px;
+          }
+        }
+        .copyright {
+          a{
+            width: 60vw;
+            font-size: 9px;
+            display: flex;
+            flex-direction: column;
+            line-height: 16px;
+          }
+        }
+        .footerLogo {
+          width: 50vw;
+          img {
+            margin-top: -0.9vh;
+            max-width:160px ;
+          }
+        }
+      } 
+    }
+  }
+}

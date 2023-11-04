@@ -1,0 +1,603 @@
+.cursorClass{
+  cursor: pointer;
+}
+
+.secondControl {
+  text-align: center;
+  .secondHead {
+    font-family: "Circular Std";
+    font-style: normal;
+    font-weight: 700;
+    width: 25%;
+    font-size: 45px;
+    margin: auto;
+    line-height: 70px;
+    text-align: center;
+    color: #272d4e;
+  }
+
+  .imageCards {
+    .manageContennt {
+      justify-content: center;
+      padding-top: 50px;
+      gap: 50px;
+      .manageCard {
+        margin-left: 30px;
+        max-width: 540px;
+        text-align: initial;
+        div {
+          width: 75%;
+          float: right;
+          h4 {
+            font-family: "Circular Std";
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 70px;
+            color: #272d4e;
+          }
+          p {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #2f3338;
+          }
+          a {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #299ef3;
+          }
+        }
+      }
+
+      .manageSecond {
+        max-width: 450px;
+        text-align: initial;
+        div {
+          width: 95%;
+          margin-left: 13px;
+          h4 {
+            font-family: "Circular Std";
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 70px;
+            color: #272d4e;
+          }
+          p {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #2f3338;
+          }
+          a {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #299ef3;
+          }
+        }
+      }
+
+      .managethird {
+        max-width: 510px;
+        margin-top: 10px;
+        text-align: initial;
+        div {
+          width: 75%;
+          margin-left: 13px;
+          h4 {
+            font-family: "Circular Std";
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 70px;
+            color: #272d4e;
+          }
+          p {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            color: #2f3338;
+          }
+          a {
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            color: #299ef3;
+          }
+        }
+      }
+
+      .firstCard {
+        max-width: 536px;
+        width: 100%;
+        object-fit: contain;
+      }
+
+      .secondCard {
+        width: 100%;
+        object-fit: contain;
+        max-width: 430px;
+      }
+
+      .thirdCard {
+        width: 100%;
+        object-fit: contain;
+        max-width: 495px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1640px) {
+  .secondControl {
+    .secondHead {
+      width: 25%;
+      font-size: 40px;
+      line-height: 65px;
+    }
+    .imageCards {
+      .manageContennt {
+        .manageCard {
+          max-width: 400px;
+          div {
+            h4 {
+              font-size: 30px;
+              line-height: 60px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 26px;
+            }
+            a {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+        .manageSecond {
+          max-width: 350px;
+          text-align: initial;
+          margin-top: 40px;
+          div {
+            h4 {
+              font-size: 30px;
+              line-height: 60px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 26px;
+            }
+            a {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 380px;
+          margin-top: 50px;
+          div {
+            width: 90%;
+            h4 {
+              font-size: 30px;
+              line-height: 60px;
+            }
+            p {
+              font-size: 16px;
+              line-height: 26px;
+            }
+            a {
+              font-size: 16px;
+              line-height: 20px;
+            }
+          }
+        }
+        .firstCard {
+          max-width: 500px;
+        }
+
+        .secondCard {
+          max-width: 400px;
+        }
+
+        .thirdCard {
+          max-width: 465px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .secondControl {
+    .secondHead {
+      width: 27%;
+      font-size: 38px;
+      line-height: 50px;
+    }
+    .imageCards {
+      .manageContennt {
+        .manageCard {
+          max-width: 350px;
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+        .manageSecond {
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 350px;
+          margin-top: 60px;
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .secondControl {
+    .secondHead {
+      width: 30%;
+      font-size: 35px;
+      line-height: 55px;
+    }
+    .imageCards {
+      .manageContennt {
+        .manageCard {
+          max-width: 300px;
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+        .manageSecond {
+          max-width: 280px;
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 300px;
+          margin-top: 50px;
+          div {
+            h4 {
+              font-size: 25px;
+              line-height: 50px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 22px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 18px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .secondControl {
+    .secondHead {
+      width: 32%;
+      font-size: 30px;
+      line-height: 50px;
+    }
+    .imageCards {
+      .manageContennt {
+        gap: 20px;
+        .manageCard {
+          max-width: 240px;
+          div {
+            h4 {
+              font-size: 19px;
+              line-height: 30px;
+            }
+            p {
+              font-size: 12px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+        .manageSecond {
+          max-width: 210px;
+          div {
+            h4 {
+              font-size: 19px;
+              line-height: 30px;
+            }
+            p {
+              font-size: 12px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 240px;
+          margin-top: 30px;
+          div {
+            h4 {
+              font-size: 19px;
+              line-height: 30px;
+            }
+            p {
+              font-size: 12px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 12px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .secondControl {
+    .secondHead {
+      width: 38%;
+      font-size: 26px;
+      line-height: 42px;
+    }
+    .imageCards {
+      .manageContennt {
+        gap: 0px;
+        flex-direction: column !important;
+        .manageCard {
+          margin-left: 20px;
+          max-width: 400px;
+          div {
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+        .manageSecond {
+          max-width: 360px;
+          align-self: end;
+          margin-top: 10px;
+          margin-right: 20px;
+          div {
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 400px;
+          margin-left: 20px;
+          div {
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .secondControl {
+    .secondHead {
+      width: 42%;
+      font-size: 22px;
+      line-height: 35px;
+    }
+    .imageCards {
+      .manageContennt {
+        .manageCard {
+          align-self: center;
+          max-width: 370px;
+          div {
+            width: 95%;
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+        .manageSecond {
+          max-width: 320px;
+          align-self: center;
+          div {
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+        .managethird {
+          max-width: 370px;
+          align-self: center;
+          div {
+            h4 {
+              font-size: 22px;
+              line-height: 22px;
+            }
+            p {
+              font-size: 14px;
+              line-height: 20px;
+            }
+            a {
+              font-size: 14px;
+              line-height: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .secondControl {
+    .secondHead {
+      font-family: "Circular Std";
+      font-style: normal;
+      font-weight: 700;
+      width: 47%;
+      font-size: 21px;
+      margin: auto;
+      line-height: 30px;
+      text-align: center;
+      color: #272d4e;
+    }
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .secondControl {
+    .secondHead {
+      width: 50%;
+      font-size: 18px;
+      line-height: 28px;
+    }
+    .imageCards {
+      .manageContennt {
+        padding-top: 25px;
+        .manageCard {
+          max-width: 310px;
+          margin-left: 1px;
+        }
+        .manageSecond {
+          max-width: 290px;
+          margin-right: 0px;
+        }
+        .managethird {
+          max-width: 310px;
+          align-self: center;
+          margin-top: 30px;
+          margin-left: 5px;
+          text-align: initial;
+        }
+      }
+    }
+  }
+}

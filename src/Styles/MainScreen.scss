@@ -1,0 +1,513 @@
+$buttonColor: #7854f7;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.MainScreenControl {
+  .row {
+    --bs-gutter-x: 0rem !important;
+  }
+}
+
+.paddTop {
+  padding-top: 130px;
+  .ManageTitle {
+    font-family: "Circular Std";
+    font-style: normal;
+    padding-left: 200px;
+    /* text-align: end; */
+    font-weight: 700;
+    font-size: 61px;
+    line-height: 80px;
+    color: #272d4e;
+  }
+  .MainDesc {
+    padding-left: 200px;
+    font-size: 16px;
+    width: 85%;
+  }
+  .MainButton {
+    padding-left: 200px;
+    align-items: center;
+    button {
+      background-color: $buttonColor;
+      border: 2px solid transparent;
+      font-family: "Roboto";
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: #ffffff;
+    }
+    button:hover{
+      background-color: white;
+      color: black;
+      border: 2px solid $buttonColor;
+      transition: 0.4s;
+      font-weight: 700;
+    }
+    a {
+      text-decoration: none;
+      color: #299ef3;
+      font-size: 16px;
+      font-family: "Roboto";
+      font-weight: 700;
+    }
+    a:hover{
+      background-color: $buttonColor;
+      border-radius: 25px;
+      color: white;
+      padding: 1.5rem;
+      transition: 0.2s;
+      
+    }
+  }
+}
+
+.Wclass {
+  background-image: url("../../public/W.png");
+  // background-color: #272d4e;
+  max-width: 865px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  position: absolute;
+  /* top: -50px; */
+  bottom: 70px;
+  right: 0%;
+  object-fit: contain;
+  z-index: 9;
+  width: 100%;
+}
+
+// .Wclass {
+//   background-image: url('../../public/W.png') ;
+//   position: absolute;
+//   top: 0px;
+//   z-index: 900;
+//   background-color: #272d4e;
+//   background-position: right;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   left: 46%;
+//   max-width: 855px;
+//   width: 100%;
+//   height: 1000px;
+//   overflow: hidden;
+// }
+.adjustP{
+  text-align: -webkit-right;
+}
+.image_homeScreen {
+  position: relative;
+  max-width: 750px;
+  height: 750px;
+  width: 100%;
+  z-index: 999;
+  object-fit: contain;
+}
+
+@media only screen and (max-width: 1600px) {
+.paddTop {
+  .MainDesc {
+    padding-left: 200px;
+    font-size: 16px;
+    width: 100%;
+  }
+  .ManageTitle {
+    font-family: "Circular Std";
+    font-style: normal;
+    padding-left: 200px;
+    /* text-align: end; */
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 80px;
+    color: #272d4e;
+  }
+}
+  .Wclass {
+    background-image: url("../../public/W.png");
+    // background-color: #272d4e;
+    max-width: 750px;
+    height: 106vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* top: -50px; */
+    bottom: 100px;
+    right: 0%;
+    object-fit: contain;
+    z-index: 9;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .paddTop {
+    padding-top: 110px;
+    .ManageTitle {
+      padding-left: 120px;
+      font-size: 45px;
+      line-height: 75px;
+    }
+    .MainDesc {
+      padding-left: 120px;
+      font-size: 16px;
+    }
+    .MainButton {
+      padding-left: 120px;
+      button {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      a {
+        text-decoration: none;
+        color: #299ef3;
+        font-size: 16px;
+        font-family: "Roboto";
+        font-style: normal;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .Wclass {
+    background-image: url("../../public/W.png");
+    // background-color: #272d4e;
+    max-width: 650px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: absolute;
+    /* top: -50px; */
+    bottom: 250px;
+    right: 0%;
+    object-fit: contain;
+    z-index: 9;
+    width: 100%;
+  }
+
+  // .Wclass {
+  //   background-image: url('../../public/W.png') ;
+  //   position: absolute;
+  //   top: 0px;
+  //   z-index: 900;
+  //   background-color: #272d4e;
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   left: 46%;
+  //   max-width: 855px;
+  //   width: 100%;
+  //   height: 1000px;
+  //   overflow: hidden;
+  // }
+
+  .image_homeScreen {
+    max-width: 700px;
+    height: 800px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .paddTop {
+    padding-top: 80px;
+    .ManageTitle {
+      padding-left: 100px;
+      font-size: 40px;
+      line-height: 65px;
+    }
+    .MainDesc {
+      padding-left: 100px;
+      font-size: 16px;
+    }
+    .MainButton {
+      padding-left: 100px;
+      button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+      }
+      a {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .Wclass {
+    background-image: url("../../public/W.png");
+   max-width: 500px;
+   height: 83vh;
+   background-repeat: no-repeat;
+   position: absolute;
+   /* top: -50px; */
+   bottom: 200px;
+   right: 0%;
+   object-fit: contain;
+   z-index: 9;
+   width: 100%;
+  }
+
+  // .Wclass {
+  //   background-image: url('../../public/W.png') ;
+  //   position: absolute;
+  //   top: 0px;
+  //   z-index: 900;
+  //   background-color: #272d4e;
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   left: 46%;
+  //   max-width: 855px;
+  //   width: 100%;
+  //   height: 1000px;
+  //   overflow: hidden;
+  // }
+
+  .image_homeScreen {
+    max-width: 700px;
+    height: 600px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .paddTop {
+    padding-top: 30px;
+    .ManageTitle {
+      padding-left: 50px;
+      font-size: 40px;
+      line-height: 55px;
+    }
+    .MainDesc {
+      padding-left: 50px;
+      font-size: 14px;
+    }
+    .MainButton {
+      padding-left: 50px;
+      button {
+        font-size: 13px;
+        line-height: 18px;
+      }
+      a {
+        font-size: 14px;
+
+      }
+    }
+  }
+
+  .Wclass {
+    background-image: url("../../public/W.png");
+    // background-color: #272d4e;
+    display: none;
+   
+  }
+
+  // .Wclass {
+  //   background-image: url('../../public/W.png') ;
+  //   position: absolute;
+  //   top: 0px;
+  //   z-index: 900;
+  //   background-color: #272d4e;
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   left: 46%;
+  //   max-width: 855px;
+  //   width: 100%;
+  //   height: 1000px;
+  //   overflow: hidden;
+  // }
+
+  .image_homeScreen {
+    max-width: 700px;
+    height: 500px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 865px) {
+  .paddTop {
+    padding-top: 30px;
+    .ManageTitle {
+      padding-left: 50px;
+      font-size: 34px;
+      line-height: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .paddTop {
+    padding-top: 30px;
+    .ManageTitle {
+      padding-left: 20px;
+      font-size: 32px;
+      line-height: 40px;
+    }
+    .MainDesc {
+      padding-left: 20px;
+      font-size: 12px;
+    }
+    .MainButton {
+      padding-left: 20px;
+      flex-direction: column;
+      align-items: baseline;
+      button {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      a {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    }
+  }
+
+  .Wclass {
+    background-image: url("../../public/W.png");
+    // background-color: #272d4e;
+   
+  }
+
+  // .Wclass {
+  //   background-image: url('../../public/W.png') ;
+  //   position: absolute;
+  //   top: 0px;
+  //   z-index: 900;
+  //   background-color: #272d4e;
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   left: 46%;
+  //   max-width: 855px;
+  //   width: 100%;
+  //   height: 1000px;
+  //   overflow: hidden;
+  // }
+
+  .image_homeScreen {
+    max-width: 700px;
+    height: 350px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 655px) {
+  .paddTop {
+    .ManageTitle {
+      padding-left: 20px;
+      font-size: 27px;
+      line-height: 40px;
+    }
+  }
+
+  // .Wclass {
+  //   background-image: url('../../public/W.png') ;
+  //   position: absolute;
+  //   top: 0px;
+  //   z-index: 900;
+  //   background-color: #272d4e;
+  //   background-position: right;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+  //   left: 46%;
+  //   max-width: 855px;
+  //   width: 100%;
+  //   height: 1000px;
+  //   overflow: hidden;
+  // }
+}
+
+@media only screen and (max-width: 576px) {
+  .paddTop {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .ManageTitle {
+      padding-left: 20px;
+      font-size: 30px;
+      width: 60%;
+      line-height: 40px;
+    }
+    .MainDesc {
+      width: 80%;
+      padding-left: 20px;
+      font-size: 13px;
+    }
+    .MainButton {
+      padding-left: 20px;
+      button {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+ 
+}
+
+
+@media only screen and (max-width: 516px){
+  .paddTop {
+    .ManageTitle {
+      padding-left: 20px;
+      font-size: 30px;
+      width: 70%;
+      line-height: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 442px) {
+  .paddTop {
+    padding-top: 20px;
+    .ManageTitle {
+      padding-left: 20px;
+      font-size: 26px;
+      width: 73%;
+      line-height: 30px;
+    }
+    .MainDesc {
+      width: 80%;
+      padding-left: 20px;
+      font-size: 12px;
+    }
+    .MainButton {
+      padding-left: 20px;
+      button {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .paddTop {
+    .ManageTitle {
+      font-size: 24px;
+      width: 79%;
+      line-height: 30px;
+    }
+    .MainDesc {
+      width: 80%;
+      padding-left: 20px;
+      font-size: 12px;
+    }
+    .MainButton {
+      padding-left: 20px;
+      button {
+        font-size: 12px;
+        line-height: 18px;
+      }
+      a {
+        font-size: 12px;
+      }
+    }
+  }
+}
